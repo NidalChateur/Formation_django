@@ -1,0 +1,29 @@
+# 1. CLI permettant de créer un environment virtuel :
+# python -m venv env (windows)
+# python3 -m venv env (linux/mac)
+
+# 2. CLI permettant d'activer l'environnement virtuel
+# env/scripts/activate (windows)
+# source env/bin/activate (linux/mac)
+
+# 3. CLI permettant de mettre à jour pip :
+# python -m pip install --upgrade pip (windows)
+# python3 -m pip install --upgrade pip (linux/mac)
+
+# 4. CLI permettant d'installer toutes les dépendances en une seule fois :
+# pip install -r requirements/dev.txt
+
+# 5. Générer le fichier dev_freeze.txt
+# pip freeze > requirements/dev_freeze.txt
+
+# install le framework
+django
+
+# permet de gérer les image
+pillow
+
+# permet de faire appel au framework bootstrap
+django-bootstrap5
+
+# permet de gérer les variables d’environnements
+python-dotenv
